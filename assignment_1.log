@@ -1,0 +1,253 @@
+Script started on 2024-07-03 20:30:42+0530
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ touch test.txt
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l test.txt 
+-rw-rw-r-- 1 tushar85 tushar85 0 Jul  3 20:30 test.txt
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ chomd[K[K[Kmod [K[K[K[K[K[Kchmod u[K[K[K[K[K[K[Kchmod u+rwx test.txt 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l test.txt 
+-rwxrw-r-- 1 tushar85 tushar85 0 Jul  3 20:30 [0m[01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ cho[Kmod g+wx test.txt 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;34mdevop_coe[0m  [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 4
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:30 [0m[01;34mdevop_coe[0m
+-rwxrwxr-- 1 tushar85 tushar85    0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ chmod 755 [K[K[K66 test.txt 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 4
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:30 [0m[01;34mdevop_coe[0m
+-rwxrw-rw- 1 tushar85 tushar85    0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ less [K[K[K[K[Kcat /etc/passws[Kd | less
+[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nolog in
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr /sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/no login
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kavahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin :[K[K [KESCESC[KOO[KBB[K/nologin
+:[K[K [KESCESC[KOO[KBB[Kusbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kdnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Krtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kcups-pk-helper:x:110:116:user for cups-pk-helper service,,,:/home/cups-pk-helpe :[K[K [KESCESC[KOO[KBB[Kr:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kspeech-dispatcher:x:111:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin :[K[K [KESCESC[KOO[KBB[K/false
+:[K[K [KESCESC[KOO[KBB[Kwhoopsie:x:112:117::/nonexistent:/bin/false
+:[K[K [KESCESC[KOO[KBB[Kkernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Ksaned:x:114:119::/var/lib/saned:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kpulse:x:115:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kavahi:x:116:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kcolord:x:117:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/n :[K[K [KESCESC[KOO[KBB[Kologin
+:[K[K [KESCESC[KOO[KBB[Khplip:x:118:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+:[K[K [KESCESC[KOO[KBB[Kgeoclue:x:119:124::/var/lib/geoclue:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Kgnome-initial-setup:x:120:65534::/run/gnome-initial-setup/:/bin/false
+:[K[K [KESCESC[KOO[KBB[Kgdm:x:121:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+:[K[K [KESCESC[KOO[KBB[Ktushar85:x:1000:1000:tushar85,,,:/home/tushar85:/bin/bash
+:[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mkdir [K[K[K[K[K[Kls
+[0m[01;34mdevop_coe[0m  [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mkdir parent_dir/child_dir
+mkdir: cannot create directory ‘parent_dir/child_dir’: No such file or directory
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mkdir parent_dir/child_dir.parent_dir/child_dir/parent_dir/child_dir
+mkdir: cannot create directory ‘./parent_dir/child_dir’: No such file or directory
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mkdir ./parent_dir/child_dir[C[1Pparent_dir/child_dir[1Pparent_dir/child_dir[1Pparent_dir/child_dir parent_dir/child_dir-parent_dir/child_dir parent_dir/child_dir[1Pparent_dir/child_dir[Cparent_dir/child_dir parent_dir/child_dir
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mdevop_coe[0m  [01;34mparent_dir[0m  [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mv test.txt upadted_name.txt
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mdevop_coe[0m  [01;34mparent_dir[0m  [01;32mupadted_name.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mv upadted_name.txt /[K./[K[Kdevop_coe/
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mdevop_coe[0m  [01;34mparent_dir[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls devop_coe/
+assignment_1.log  [0m[01;32mupadted_name.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mv devop_coe/upadted_name.txt  [K.
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mdevop_coe[0m  [01;34mparent_dir[0m  [01;32mupadted_name.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ mc [K[K[Kmv upadted_name.txt tet[Kxt.[K[K[Kst.tex[K[Kxt
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 8
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:42 [0m[01;34mdevop_coe[0m
+drwxrwxr-x 3 tushar85 tushar85 4096 Jul  3 20:38 [01;34mparent_dir[0m
+-rwxrw-rw- 1 tushar85 tushar85    0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ chown tushar85 root
+chown: cannot access 'root': No such file or directory
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ chown tushar85 root[K[K[K[K[K[K[K[K[K[K[K[K[Kroot test.txt 
+chown: changing ownership of 'test.txt': Operation not permitted
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 8
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:42 [0m[01;34mdevop_coe[0m
+drwxrwxr-x 3 tushar85 tushar85 4096 Jul  3 20:38 [01;34mparent_dir[0m
+-rwxrw-rw- 1 tushar85 tushar85    0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ a[Ksudo test[K[K[K[Kchown root tw[Kest.txt 
+[sudo] password for tushar85: 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 8
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:42 [0m[01;34mdevop_coe[0m
+drwxrwxr-x 3 tushar85 tushar85 4096 Jul  3 20:38 [01;34mparent_dir[0m
+-rwxrw-rw- 1 root     tushar85    0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ sudo chown tushar85 tw[Kest.txt 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mdevop_coe[0m  [01;34mparent_dir[0m  [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 8
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:42 [0m[01;34mdevop_coe[0m
+drwxrwxr-x 3 tushar85 tushar85 4096 Jul  3 20:38 [01;34mparent_dir[0m
+-rwxrw-rw- 1 tushar85 tushar85    0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ shudo [K[K[K[K[Kudo chgrp root test.txt 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 8
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:42 [0m[01;34mdevop_coe[0m
+drwxrwxr-x 3 tushar85 tushar85 4096 Jul  3 20:38 [01;34mparent_dir[0m
+-rwxrw-rw- 1 tushar85 root        0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ sudo chown tushar85 test.txt 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -l
+total 8
+drwxrwxr-x 2 tushar85 tushar85 4096 Jul  3 20:42 [0m[01;34mdevop_coe[0m
+drwxrwxr-x 3 tushar85 tushar85 4096 Jul  3 20:38 [01;34mparent_dir[0m
+-rwxrw-rw- 1 tushar85 root        0 Jul  3 20:30 [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ user[K[K[K[Ksudi[Kor user[K[K[K[K[K[K[Ko useradd tushar2.0-tushar2.0mtushar2.0 tushar2.0[C[C[C[C[C[C[C[C[C
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ ls -a
+[0m[01;34m.[0m  [01;34m..[0m  [01;34mdevop_coe[0m  [01;34mparent_dir[0m  [01;32mtest.txt[0m
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ cat /etc.p[K[K/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+cups-pk-helper:x:110:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:111:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:112:117::/nonexistent:/bin/false
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:114:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:115:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:116:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:117:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:118:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:119:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:120:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:121:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+tushar85:x:1000:1000:tushar85,,,:/home/tushar85:/bin/bash
+tushar2.0:x:1001:1001::/home/tushar2.0:/bin/sh
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ su tushar
+tushar2.0  tushar85   
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ su tushar2.0 
+Password: 
+su: Authentication failure
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ su tushar2.0 
+Password: 
+su: Authentication failure
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ sudo passw [Kd tushar2.0 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ sudo passwd tushar2.0 [9P[C[C[C[C[C[C[C[C[C[C[Ccat /etc/passwd[2Psu tushar2.0 
+Password: 
+$ ls 
+devop_coe  parent_dir  test.txt
+$ cd    pwd
+/home/tushar85/Desktop
+$ cd ..
+$ pwd
+/home/tushar85
+$ ls -l
+total 44
+drwxr-xr-x 4 tushar85 tushar85 4096 Jul  3 20:43 Desktop
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Documents
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Downloads
+-rw-r--r-- 1 tushar85 tushar85 8980 Jul  3 19:40 examples.desktop
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Music
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Pictures
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Public
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Templates
+drwxr-xr-x 2 tushar85 tushar85 4096 Jul  3 19:47 Videos
+$ 
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ visudo
+visudo: /etc/sudoers: Permission denied
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ sudo s[Kcu[K[Kvisudo
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;32H(B[0;7m[ Reading File ](B[m[26;38H(B[0;7m 30 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                  /etc/sudoers.tmp                             [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[26d[3d[39;49m[36m#[4d# This file MUST be edited with the 'visudo' command as root.[5d#[6d# Please consider adding local content in /etc/sudoers.d/ instead of[7d# directly modifying this file.[8d#[9d# See the man page for details on how to write a sudoers file.[10d#[11d[39m(B[mDefaults[11;17Henv_reset[12dDefaults[12;17Hmail_badpass[13dDefaults[13;17Hsecure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin$[15;1H[36m# Host alias specification[17d# User alias specification[19d# Cmnd alias specification[21d# User privilege specification[22d[39m(B[mroot    ALL=(ALL:ALL) ALL[23dtushar85 ALL=(ALL:ALL) ALL[24d[36m# Members of the admin group may gain root privileges[25d[39m(B[m%admin ALL=(ALL) ALL[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[A[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25l[26d[K[23;5H[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l8[?12l[?25h[?25l5[?12l[?25h[?25l [?12l[?25h[?25lA[?12l[?25h[?25lL[?12l[?25h[?25lL[?12l[?25h[?25l=[?12l[?25h[?25l([?12l[?25h[?25lA[?12l[?25h[?25lL[?12l[?25h[?25lL[?12l[?25h[?25l:[?12l[?25h[?25lA[?12l[?25h[?25lL[?12l[?25h[?25lL[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lA[?12l[?25h[?25lL[?12l[?25h[?25lL[?12l[?25h[?25l[24d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[27d[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>visudo: /etc/sudoers.tmp unchanged
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ userdel -r [K[K[K[K[K[K[K[K[K[K[Ku[Ksudo userdel -t[Kr tushar2.0 
+userdel: tushar2.0 mail spool (/var/mail/tushar2.0) not found
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ sudo userdel -r tushar2.0 visudo[K[5Pvisudosu tushar2.0 [9@do passwd[C[C[C[C[C[C[C[C[C[C[C[9P[C[C[C[C[C[C[C[C[C[C[Ccat /etc/passwd[10Pls -acat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+cups-pk-helper:x:110:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:111:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:112:117::/nonexistent:/bin/false
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:114:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:115:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:116:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:117:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:118:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:119:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:120:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:121:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+tushar85:x:1000:1000:tushar85,,,:/home/tushar85:/bin/bash
+]0;tushar85@ubuntu: ~/Desktop[01;32mtushar85@ubuntu[00m:[01;34m~/Desktop[00m$ clear[K[K[K[K[Kexit
+
+Script done on 2024-07-03 20:51:53+0530
